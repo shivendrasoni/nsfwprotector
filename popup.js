@@ -20,7 +20,7 @@ var badwords  = ["ahole","anus","anal","ash0le","ash0les","asholes","ass","Ass M
       	    console.warn('NSFW word'+word+' on tab', tab.id);
       		setTimeout(function(tab){
               chrome.tabs.remove(tab.id);
-      		},2000,tab)
+      		},1000*60*12,tab)
       	}
       })
     })
