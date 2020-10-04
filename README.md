@@ -1,6 +1,6 @@
 # nsfwprotector
 
-Closes any chrome tabs with NSFW content after 12 minuntes. 
+Closes any chrome tabs with NSFW content after a set interval.
 
 ##TODO 
 
